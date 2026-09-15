@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="animepower"
+version="1.0.0"
+displayName="AnimePower"
+authors="You"
+description='''
+OP-only command mod that assigns a single anime power label to a player,
+persisted across server restarts.
+'''
+
+[[dependencies.animepower]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.animepower]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
